@@ -177,6 +177,14 @@ $('.slider-nav').slick({
             }
         },
         {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+            }
+        },
+        {
             breakpoint: 400,
             settings: {
                 slidesToShow: 1,
