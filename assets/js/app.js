@@ -187,4 +187,4 @@ $('.slider-nav').slick({
     ]
 });
 
-AOS.init();
+AOS.init({ once: true, });
