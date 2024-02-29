@@ -869,6 +869,10 @@
     .mt_38 {
         margin-top: 16px;
     }
+
+    .mb_39 {
+        margin-bottom: 24px;
+    }
 }
 
 @media (max-width:576px) {
