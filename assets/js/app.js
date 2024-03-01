@@ -5,12 +5,12 @@ function opennav() {
     document.getElementById("menubtn-icon").classList.toggle("cross");
 }
 // ----------------------------preloader--------------------
-setTimeout(() => {
-    console.log("Delayed for 5 second.");
-    document.getElementById("preloader").classList.add("opacity-0")
-    document.getElementById("preloader").classList.add("pointer_event_none")
-    document.body.classList.remove("overflow-hidden")
-}, 5000);
+// setTimeout(() => {
+//     console.log("Delayed for 5 second.");
+//     document.getElementById("preloader").classList.add("opacity-0")
+//     document.getElementById("preloader").classList.add("pointer_event_none")
+//     document.body.classList.remove("overflow-hidden")
+// }, 5000);
 // -----------------------------back-to-top------------------------------
 document.addEventListener('DOMContentLoaded', function () {
     var backToTopBtn = document.getElementById('backToTopBtn');

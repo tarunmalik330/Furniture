@@ -17,7 +17,7 @@
 }
 
 /* -----------------------------preloader-------------------------- */
-.animation {
+/* .animation {
     animation: swing 2s linear infinite;
 }
 
@@ -45,7 +45,7 @@
 
 .z_index_9 {
     z-index: 9;
-}
+} */
 
 /* ---------------------------------back-to-top------------------------------------ */
 .BackToTop {
@@ -672,6 +672,10 @@
     opacity: 50%;
 }
 
+.min_vh_100 {
+    min-height: 100vh;
+}
+
 :root {
     --fs-1sm: 11.37px;
     --fs-4sm: 14px;
@@ -691,6 +695,7 @@
     .mw_596 {
         max-width: 596px;
     }
+
 
     .custom_container {
         max-width: 1261px !important;
@@ -744,6 +749,12 @@
         padding-bottom: 100px;
     }
 
+    /* 
+    .py_header {
+        padding-top: 150px;
+        padding-bottom: 398px;
+    } */
+
     .mb_90 {
         margin-bottom: 0 !important;
     }
@@ -769,6 +780,10 @@
     .py_testimonaial {
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+
+    .min_vh_100 {
+        min-height: unset;
     }
 }
 
@@ -921,4 +936,25 @@
         padding-bottom: 60px;
     }
 
+    .py_footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .after_line::after {
+        display: none;
+    }
+
+    .mw_257 {
+        max-width: unset;
+    }
+
+    .mw_298 {
+        max-width: unset;
+    }
+
+    .offer_content {
+        padding-left: unset;
+        padding-bottom: 71px;
+    }
 }
