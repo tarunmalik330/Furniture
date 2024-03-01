@@ -17,7 +17,7 @@
 }
 
 /* -----------------------------preloader-------------------------- */
-/* .animation {
+.animation {
     animation: swing 2s linear infinite;
 }
 
@@ -45,7 +45,7 @@
 
 .z_index_9 {
     z-index: 9;
-} */
+}
 
 /* ---------------------------------back-to-top------------------------------------ */
 .BackToTop {
