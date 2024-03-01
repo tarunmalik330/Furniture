@@ -696,11 +696,6 @@
         max-width: 596px;
     }
 
-
-    .custom_container {
-        max-width: 1261px !important;
-    }
-
     .mb_19 {
         margin-bottom: 19px;
     }
@@ -748,12 +743,6 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
-
-    /* 
-    .py_header {
-        padding-top: 150px;
-        padding-bottom: 398px;
-    } */
 
     .mb_90 {
         margin-bottom: 0 !important;
