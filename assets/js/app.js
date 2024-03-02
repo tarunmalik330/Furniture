@@ -77,6 +77,37 @@ $('.myslider').slick({
         }
     ]
 });
+
+$('.my_slider').slick({
+    dots: false,
+    infinite: true,
+    arrows: false,
+    speed: 1000,
+    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false,
+            }
+        }
+    ]
+});
+
 $('.shopping').slick({
     dots: false,
     infinite: true,
