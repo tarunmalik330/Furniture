@@ -673,7 +673,7 @@
 }
 
 .min_vh_100 {
-    min-height: 100vh;
+    height: calc(100vh-61px);
 }
 
 :root {
@@ -926,8 +926,8 @@
     }
 
     .py_footer {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .after_line::after {
@@ -945,5 +945,9 @@
     .offer_content {
         padding-left: unset;
         padding-bottom: 71px;
+    }
+
+    .mb_23 {
+        margin-bottom: 18px;
     }
 }
